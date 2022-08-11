@@ -1,4 +1,6 @@
 import { galleryItems } from './gallery-items.js';
+// Change code below this line
+
 
 const galleryContainer = document.querySelector('.gallery');
 const createMarkup = images => {
@@ -43,5 +45,3 @@ const onClick = e => {
 
 galleryContainer.addEventListener('click', onClick);
 document.addEventListener('keydown', onPress);
-
-

@@ -1,4 +1,5 @@
 import { galleryItems } from './gallery-items.js';
+// Change code below this line
 
 const galleryCont = document.querySelector('.gallery');
 const galleryItemsString = galleryItems.map(item => `<a class="gallery__item" href="${item.original}">
